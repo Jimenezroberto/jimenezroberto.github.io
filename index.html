@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h2><a name="botonarriba"></a>Tracy Wade</h2>
+    </header>
+    
+<button type="button" id="botonarriba" class="botonarriba botonarriba"><a href="#botonarriba">^</a></button>
+   
+	<div class="topnav" id="myTopnav">
+		<a href="#home" class="active">Inicio</a>
+		<a href="#presentacion">Presentacion</a>
+		<a href="#capacitaciones">Capacitaciones</a>
+		<a href="#contactame">Contacto</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+    <section class="uno">
+        <div class="caja-central">
+            <div class="caja-cara">
+                <img class="cara" src="img/79.jpg" alt="Foto user random">
+            </div>
+            <div class="caja-presentacion">
+                <div>    
+                    <h1>Tracy Wade</h1>
+                    <p class="presentacion">
+                        Licenciado en Publicidad.<br>
+                        6 años de experiencia en agencias de Marketing. 
+                 	</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dos">
+
+        <h2><a name="presentacion"></a>Sobre mí</h2>
+        <p>
+            Mi capacidad creativa y analítica me permite realizar campañas publicitarias altamente efectivas. Aspiro a crear piezas audiovisuales de calidad donde pueda demostrar todo mi potencial.
+      </p>
+
+	  <p id="demo">Si desea, puede descargar mi CV para obtener más detalles.</p>
+      <button type="button" id="boton" class="button button2">Descargar curriculum</button>
+   		<script src="js/impresioncv.js"></script>      
+&nbsp;
+      <h2><a name="capacitaciones"></a>Mis conocimientos</h2>
+        <p>Estas son algunas de las tecnologías de las que poseo conocimientos.
+        </p>
+        <div class="aptitudes">
+            <div class="tech-list">
+                <img src="img/250px-CSS3_logo_and_wordmark.png" class="tech" alt="Logo Css 3">
+                <img src="img/HTML5_logo_and_wordmark.png" class="tech" alt="Logo http 5">
+                <img src="img/Unofficial_JavaScript_logo_2.png" class="tech" alt="Logo Js">
+            </div>
+        </div>
+&nbsp;
+        <h2>Cursos realizados</h2>
+			<ul>
+				<li>Ingenieria Informatica. No completado.<a href="https://www.unaj.edu.ar/carreras/ingenieria-y-agronomia/ingenieria-informatica/">Ver</a></li>
+				<li>Tecnicatura Diseño Grafico. No completado.<a href="https://emba.quilmes.gov.ar/carreras/3/tecnicatura-en-diseno-grafico/">Ver</a></li>
+			</ul>
+    </section>
+
+    <section class="tres">
+        <h2>Mis Trabajos</h2>
+			<div class="proyectos">
+				<div class="card">
+                <h3>Gerente de operaciones</h3>
+                <img src="img/pexels-alena-darmel-8133999.jpg" target="_blank" alt="Foto user random job">
+                <p>Manejo de personal.</p>
+                <p>Manejo Suite Informática.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+	<script src="https://kit.fontawesome.com/15ac6f7556.js" crossorigin="anonymous"></script>
+        <h2><a name="contactame"></a></p>Contactame</h2>
+
+		<div class="contacto">   
+		</div>
+
+		<div class="btn-group">
+			<button class="button" href="https://www.linkedin.com/Tracy-Wade" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></button>
+			<button class="button" href="https://instagram.com/Tracy-Wade/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></button>
+			<button class="button" href="https://wa.me/+3348382919" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></button>
+			<button class="button" href="https://jimenezroberto.github.io/" target="_blank"><i class="fa-brands fa-github fa-2x"></i></button>
+		</div>
+            <p style="padding-top: 15px"><a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank">Argentina Programa 4.0</a></p>
+    </footer>
+    
+</body>
+</html>
